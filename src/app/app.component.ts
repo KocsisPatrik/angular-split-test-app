@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fixed-height-web-app';
+  isSplitDisabled = false;
+  pageSplitDirection: 'vertical' | 'horizontal' = 'vertical';
+  headerSizeInPercent = 20;
+  bodySizeInPercent = 80;
+  contentSplitDirection: 'vertical' | 'horizontal' = 'horizontal';
+  leftChildSizeInPercent = 50;
+  rightChildSizeInPercent = 50;
 }
